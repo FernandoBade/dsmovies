@@ -14,11 +14,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 html, body {
-    background-color:#E8E8E8;
+    background-color:#eee;
 }
 
 a, a:hover {
