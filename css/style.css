@@ -5,7 +5,8 @@
     --color-primary: #4D41C0;
     --white: #fff;
     --text-gray: #4a4a4a;
-    --text-light-gray: #aaa
+    --text-light-gray: #aaa;
+    --star-yellow: #ffbb3a;
 }
 
 * {
@@ -87,7 +88,7 @@ a, a:hover {
     padding: 10px 20px 20px 10px;
     border-radius: 0 0 8px 8px;
     background-color: var(--white);
-    min-height: 150px;
+    min-height: 140px;
     justify-content: space-between;
 }
 
@@ -148,5 +149,28 @@ a, a:hover {
 
 .dsmovie-form-group{
     margin-bottom: 20px;
+}
+
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description-bottom img{
+    width: 22px;
+}
+
+.dsmovie-card-description-bottom h4 {
+    color: var(--star-yellow);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dsmovie-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin: 10px;
 }
 
